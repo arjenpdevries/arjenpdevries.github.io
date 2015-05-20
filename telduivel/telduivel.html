@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+</style>
+<script src="init.js" type="application/javascript"></script>
+<script src="drawit.js" type="application/javascript"></script>
+</head>
+<body>
+<canvas id="tPascal" width="1600" height="1600"></canvas>
+<script type="application/javascript">
+//
+// Pascal's Triangle
+//
+
+// Draw a Triangle of Pascal consisting of nl lines
+function tpascal(ctx,nl) {
+  // Array keeping the next row's values
+  var nrow = [ 1 ];
+
+  // Loop over nl lines
+  for (var l = 0; l < nl; ) {
+    // Array keeping the current row's values
+    var crow = nrow.slice(0);  
+
+    // draw l rectangles
+    for (var nr = 0; nr <= l ; nr++) {
+      // draw rectangle and digit
+      if (crow[nr] % d == 0) {
+        cell(ctx, c, crow[nr]);
+      } else {
+        cell(ctx, cc, crow[nr]);
+      }
+      // Compute the next row's values
+      if (nr>0) { nrow[nr] = crow[nr - 1] + crow[nr]; }
+    }
+
+    // Complete next row's final digit
+    nrow.push(1);
+    linedown(ctx,++l);
+  }
+}
+
+//
+// Draw the triangle on the canvas!
+//
+var canvas = document.getElementById('tPascal');
+if (canvas.getContext) {
+  var ctx = canvas.getContext('2d');
+  initctx(ctx, c);
+  tpascal(ctx, n);
+}
+</script>
+</body>
+</html>
