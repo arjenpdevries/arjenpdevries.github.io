@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script>if ( screen.width < 640 ) { window.location.href = "m_index.html"; } </script>
 <style>img { width: 150px; height: auto; }</style>
 </head>
 <body role="document">
@@ -54,6 +53,42 @@ Of hou je meer van driehoeken met de delers van <a href="telduivel.html?n=32&d=3
 <div class="media-right">
 <img class="media-object" src="telduivel.jpg" alt="De telduivel" />
 </div>
+<h4>Hoe werkt het?</h4>
+<p>
+Het volgende stukje computercode tekent een Driehoek van Pascal van <code>nl</code> regels hoog.
+We tekenen telkens de huidige rij (<code>crow</code>) op het "canvas" (<code>ctx</code>) 
+en berekenen vervolgens wat er in de volgende rij (<code>nrow</code>) moet komen te staan.
+</p>
+<pre class="pre-scrollable">
+function tpascal(ctx,nl) {
+  // De eerste nieuwe rij bestaat uit een enkele "1"
+  var nrow = [ 1 ];
+
+  // De driehoek wordt nl regels hoog
+  for (var l = 0; l < nl; ) {
+    // De nieuwe rij wordt de huidige rij
+    var crow = nrow.slice(0);  
+
+    // Op rij l komen nr vierkantjes
+    for (var nr = 0; nr <= l ; nr++) {
+      // Teken het vierkantje...
+      if (crow[nr] % d == 0) {
+         // ... in kleuren c als de waarde deelbaar is door d
+         cell(ctx, c, crow[nr]);
+      } else {
+        // ... of in kleuren cc als dat niet zo is
+        cell(ctx, cc, crow[nr]);
+      }
+      // Bereken wat er op de volgende rij moet komen:
+      if (nr>0) { nrow[nr] = crow[nr - 1] + crow[nr]; }
+    }
+
+    // Plak nog een "1" achter de nieuwe rij en ga verder:
+    nrow.push(1);
+    linedown(ctx,++l);
+  }
+}
+</pre>
 </div>
 </body>
 </div>
