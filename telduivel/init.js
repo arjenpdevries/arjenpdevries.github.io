@@ -11,7 +11,8 @@ var s = 40;
 
 // Background and foreground colors
 var c =  [ 'blue', 'yellow' ];
-var cc = [ 'yellow', 'blue' ];
+//var c =  [ 'purple', 'lightblue' ];
+var cc = [ c[1], c[0] ];
 
 // Parameters: number of lines (n), "divisor" (d), print digits? (p)
 var n = 24;
