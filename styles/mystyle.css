@@ -1,0 +1,32 @@
+/* 
+    Stylesheet for layouting the Sen7 pages
+    Arjen P. de Vries, February 2003
+*/
+
+BODY { 
+  margin: 1cm 3cm 1.5cm 3cm;
+  font-family: lucida, helvetica, sans-serif;
+  font-size: 12pt;
+  background: #F0F0F0;
+  color: #000000;
+}
+
+A:link    { color: #2020cf; text-decoration: none }
+A:visited { color: #b0b0df }
+A:active  { color: #0000FF }
+A:link IMG, A:visited IMG, A:active IMG { border: none 0 }
+A IMG { border: none 0 }
+
+H1 { font-family: lucida, helvetica, sans-serif; font-size: 18pt;
+     text-align: center}
+H2 { font-family: lucida, helvetica, sans-serif; font-size: 14pt;
+     font-weight: bold }
+P, UL, OL, DD, DT, TD, TH, TR, LI, BLOCKQUOTE
+   { font-family: lucida, helvetica, sans-serif; font-size: 12pt }
+EM
+   { font-family: lucida, helvetica, sans-serif; font-size: 12pt;  
+     font-style: italic; text-decoration: none }
+
+PRE, TT, CODE, KBD, SAMP {
+        font-family: Courier, monospace;
+}

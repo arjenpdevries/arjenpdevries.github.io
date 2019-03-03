@@ -1,0 +1,99 @@
+<html>
+<head>
+<title> PhD Thesis - Arjen P. de Vries </title>
+</head>
+<BODY BGCOLOR="FFFFF0" TEXT="000000">
+
+<H1>ABSTRACT</H1>
+
+
+Een database management systeem (DBMS) is een generiek softwareprodukt dat het
+mogelijk maakt om gegevensbanken te defini&euml;ren en beheren ten behoeve van
+verschillende toepassingen. Relationele database management systemen worden
+al jaren met succes toegepast voor het beheer van administratieve data in
+zakelijke toepassingen. 
+<P>
+Dit onderzoek bestudeert het beheer van data in digitale multimediale
+bibliotheken, en dan met name de implicaties van dit toepassingsgebied op het
+ontwerp van database management systemen. Het grootste verschil met
+administratieve toepassingen zit in het verschaffen van toegang
+tot multimedia gegevens. Omdat de inhoud van administratieve gegevens
+eenvoudig is te representeren met alfanumerieke waarden, heeft de
+databasegemeenschap zich geconcentreerd op de rol van de logische
+structuur van gegevens. Het representeren van de inhoud van multimediale
+gegevens is helaas niet zo eenvoudig, met als gevolg dat het beheer van die
+gegevens niet voldoende wordt ondersteund in huidige database management
+systemen.
+<P>
+Onderzoek naar information retrieval (IR) heeft het mogelijk gemaakt
+tekstuele documenten terug te zoeken op basis van hun inhoud. Daarnaast heeft
+onderzoek naar bijvoorbeeld computer visie en beeldanalyse geleid tot
+zoektechnieken voor verzamelingen van plaatjes en geluiden. Zulke systemen
+zijn echter vaak losstaande systemen, die slechts enkele zeer specifieke
+toepassingen kunnen ondersteunen; er is maar weinig consensus over de manier
+waarop deze technieken in generieke database management systemen
+ge&iuml;ntegreerd zouden moeten worden. Gangbare oplossingen voegen een
+beperkt aantal nieuwe functies toe aan de op structuur gerichte vraagtalen,
+maar deze functies vormen niet meer dan een gemeenschappelijke interface naar
+nog steeds compleet gescheiden systemen. Dit veroorzaakt twee lastige
+problemen voor gebruikers van deze systemen: (1) het formuleren van vragen in
+termen van deze technieken en (2) het samenvoegen van de resultaten op basis
+van verschillende technieken tot &eacute;&eacute;n eindantwoord. Bovendien
+leidt deze 
+aanpak tot ineffici&euml;nties bij het verwerken van vragen die meerdere
+verschillende abstracties van de inhoud van multimediale gegevens gebruiken.
+<P>
+Net als een gewoon DBMS, is een multimedia DBMS (MM-DBMS) een generiek
+software systeem dat verschillende toepassingen kan ondersteunen. De geboden
+functionaliteit richt zich echter specifiek op het domein van digitale
+bibliotheken. Dit proefschrift identificeert vier eisen aan zulke systemen:
+(1) de inhoud van multimediale objecten kan gerepresenteerd worden, (2) het
+bevragen van de database is een interactief proces, (3) de verwerking van
+vragen kan gebruik maken van verschillende representaties van de inhoud van
+objecten, en (4) het formuleren van vragen garandeert de in dit proefschrift
+geformuleerde notie van content independence. Om aan deze eisen tegemoet te
+komen, ondersteunen de Mirror architectuur en het Mirror DBMS, een prototype
+implementatie van deze architectuur, naast het beheer van de logische
+structuur van gegevens tevens het beheer van abstracties van de inhoud van
+deze gegevens.
+<P>
+In het ontwerp van het Mirror DBMS vormen het beheer van inhoud en structuur
+&eacute;&eacute;n geheel. Als theoretische basis voor zoeken op inhoud van
+multimediale 
+gegevens is eerst het &quot;inference network model&quot; aangepast voor
+multimedia retrieval. Om het zoeken met dit model te integreren met de
+verwerking van het zoeken op structuur in database management systemen, wordt
+in het Mirror DBMS de logische algebra uitgebreid met operatoren voor
+probabilistisch redeneren. Zo'n volledige integratie opent de weg tot nieuwe
+technieken voor query optimalisatie, en vereenvoudigt het gebruik van
+distributie en parallellisme voor de evaluatie van typische IR-vragen.
+<P>
+Andere karakteristieke eigenschappen van multimediale bibliotheken vereisen de
+ondersteuning van distributie van zowel data als operaties, en de
+uitbreidbaarheid van het systeem met nieuwe data typen en operaties. Als een
+oplossing voor deze problemen stelt dit proefschrift voor om het monolithische
+ontwerp van traditionele database systemen te vervangen door een architectuur
+op basis van integratie van geavanceerde middleware met database
+technologie. Dit idee is eveneens uitgewerkt in het onderzoek door middel van
+de implementatie van een prototype. 
+<P>
+De voorgestelde architectuur voor multimedia database management systemen is
+op drie manieren ge&euml;valueerd, met behulp van de prototype implementatie
+van het Mirror DBMS. De voordelen van een integrale aanpak zijn geschetst in
+een serie voorbeeldvragen voor verschillende soorten informatiebehoeften. Het
+voor dit onderzoek ontwikkelde multimedia retrieval model is getest in enkele
+kleinschalige experimenten, op een collectie met muziekfragmenten en op een
+collectie met foto's. Deze experimenten bevestigen het vermoeden dat het
+redeneren op basis van verschillende abstracties van de inhoud van multimedia
+gegevens nuttig en mogelijk is. Ten slotte is de snelheid van het systeem
+getoetst op een grote standaard benchmark voor het zoeken in tekstuele
+documenten.
+
+<HR>
+<address>
+<IMG ALIGN=right SRC="../Pics/mirror.gif" width=150>
+<b>Last updated</b>: December 12, 1999<BR>
+<b>Maintained by</b>: <A HREF="mailto:arjen&#64cs.utwente.nl">arjen&#64cs.utwente.nl</A>
+</address>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<html>
+<head>
+<title> PhD Thesis - Arjen P. de Vries </title>
+</head>
+<BODY BGCOLOR="FFFFF0" TEXT="000000">
+
+<H1>ABSTRACT</H1>
+
+A database management system is a general-purpose software system that
+facilitates the processes of defining, constructing, and manipulating databases
+for various applications. The main characteristic of the &quot;database
+approach&quot; is that it increases the value of data by its emphasis on data
+independence. DBMSs, and in particular those based on the relational data
+model, have been very successful at the management of administrative data in
+the business domain.
+<P>
+This thesis has investigated data management in multimedia digital libraries,
+and its implications on the design of database management systems.  The main
+problem of multimedia data management is providing access to the stored
+objects. The content structure of administrative data is easily represented in
+alphanumeric values. Thus, database technology has primarily focused on
+handling the objects' logical structure. In the case of multimedia data,
+representation of content is far from trivial though, and not supported by
+current database management systems.
+<P>
+The information retrieval (IR) community has since long studied the retrieval
+of text documents by their content. Also, research in topics like computer
+vision and image analysis has led to content-based retrieval techniques for
+querying image and audio collections.  Retrieval systems based on these ideas
+are typically standalone systems that have been developed for very specific
+applications. There is not much consensus on the integration of these
+techniques in general-purpose DBMSs. State-of-the-art solutions simply make
+new functions available in the query language. These functions interface to
+otherwise still standalone software systems. This leaves to the user the
+burdens of both query formulation and the combination of results for each
+single representation into a final judgement. Also, this leads to inefficient
+query processing for queries involving several content representations.
+<P>
+Like any DBMS, a MM-DBMS is a general-purpose software system that
+supports various applications; but, the support is targeted to applications in
+the specific domain of digital libraries. Four new requirements have been
+identified for this domain: (1) multimedia objects can be active objects, (2)
+querying is an interaction process, (3) query processing uses multiple
+representations, and (4) query formulation provides content independence.
+The Mirror Architecture and its implementation in the Mirror DBMS therefore
+provide basic functionality for the management of both the content structure
+and the logical structure of multimedia objects. 
+<P>
+In the Mirror DBMS, content management and databases are completely
+integrated.  Recognizing the strong relationship with IR query processing, the
+inference network retrieval model has been adapted for multimedia retrieval.
+The logical algebra of the DBMS has been extended with operators for
+probabilistic inference in this retrieval model. This approach to integration
+enables the study of new query optimization techniques, and simplifies the
+introduction of parallellism and distribution in IR query evaluation.
+<P>
+Other characteristics of multimedia digital libraries demand the support for
+distribution of both data and operations, and extensibility of data types and
+operations. As a solution, the integration of advanced middleware and database
+technology is proposed to replace the monolithic design of traditional
+database systems. Again, this idea has been worked out in a prototype
+implementation.
+<P>
+The proposed MM-DBMS architecture has been evaluated in three ways, using the
+Mirror DBMS prototype implementation. First, the advantages of the
+integration of content management in the Mirror DBMS have been illustrated by
+several example queries capturing different information needs.  The
+multimedia IR model developed in this thesis has been tested in some
+small-scale experiments in the domains of music and image
+retrieval, confirming that reasoning with multiple representations is both
+possible and useful. Finally, the execution performance of IR query processing
+has been evaluated using a standard text retrieval benchmark.
+
+<HR>
+<address>
+<IMG ALIGN=right SRC="../Pics/mirror.gif" width=150>
+<b>Last updated</b>: December 12, 1999<BR>
+<b>Maintained by</b>: <A HREF="mailto:arjen&#64cs.utwente.nl">arjen&#64cs.utwente.nl</A>
+</address>
+</body>
+</html>
