@@ -1,0 +1,46 @@
+/* 
+    MIA Stylesheet
+    Arjen P. de Vries, Dec 21st, 2000
+*/
+
+BODY { 
+  margin: 20;
+  font-family: lucida, helvetica, sans-serif;
+  font-size: 12pt;
+  background: #F0F0F0;
+  color: #000000;
+}
+
+A:link    { color: #2020cf; text-decoration: none }
+A:visited { color: #b0b0df }
+A:active  { color: #0000FF }
+A:link IMG, A:visited IMG, A:active IMG { border: none 0 }
+A IMG { border: none 0 }
+
+H1 { font-family: lucida, helvetica, sans-serif; font-size: 18pt;
+     text-align: left }
+H2 { font-family: lucida, helvetica, sans-serif; font-size: 14pt;
+     font-style: italic; text-decoration: none }
+P, UL, OL, DT, DD, TD, TH, TR, LI, BLOCKQUOTE
+   { font-family: lucida, helvetica, sans-serif; font-size: 12pt }
+
+PRE, TT, CODE, KBD, SAMP {
+        font-family: Courier, monospace;
+}
+
+/*
+  used to be:
+    <style type="text/css">
+     body { background: <xsl:value-of select="$background" />; 
+	    color: <xsl:value-of select="$foreground" /> }
+    <!-- TODO: table.highlight { background: $highlight } -->
+    </style>
+
+  Marcel used for colors:
+    <body text="#000000" 
+     bgcolor="#FFFFFF" 
+     link="#FF0000" 
+     vlink="#800080" 
+     alink="#0000FF">
+
+*/

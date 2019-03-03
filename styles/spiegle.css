@@ -1,0 +1,68 @@
+DIV.heading {
+        text-align: center; 
+	font-family: verdana, arial, helvetica, sans-serif;
+        font-family: Lucida, Helvetica;
+        font-size: 200%;
+        font-weight: bold;
+        font-variant: small-caps;
+        color: #008080;
+}
+DIV.note {
+        text-align: center; 
+        font-family: cursive;
+        font-size: 70%;
+        font-weight: lighter;
+        font-style: italic;
+        clear: both;
+        color: #008080;
+}
+h2 { 
+        font-family: Lucida, Helvetica;
+        font-variant: small-caps;
+        color: #008080; 
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:  #00b0b0;
+	outline: none;
+}
+a:visited {
+	color:  #006060;
+}
+a:active {
+	color:  #00b0b0;
+}
+a:hover {
+	color: #00b0b0;
+	text-decoration: underline;
+}
+/* Next boxing stuff borrowed from: 
+     http://www.thenoodleincident.com/tutorials/box_lesson/boxes.html 
+*/
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #333;
+	background-color: #fff;
+
+/* part 1 of 2 centering hack */
+	}
+#content {
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	/* opera does not like 'margin:20px auto' */
+	background: #eee;
+	border: 5px solid #008080;
+	text-align:left; /* part 2 of 2 centering hack */
+	width: 95%; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 90%;
+	}
+html>body #content {
+	width: 90%; /* ie5win fudge ends */
+	}

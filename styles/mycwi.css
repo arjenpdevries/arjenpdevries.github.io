@@ -1,0 +1,33 @@
+/* 
+    Stylesheet for layouting the Interactive Information Access pages
+    Arjen P. de Vries, November 2010
+*/
+
+BODY { 
+  margin: 1cm 3cm 1.5cm 3cm;
+  font-family: lucida, helvetica, sans-serif;
+  font-size: 12pt;
+  background: #efefef;
+  color: #000000;
+}
+
+A:link    { color: #2020cf; text-decoration: none }
+A:visited { color: #b0b0df }
+A:active  { color: #0000FF }
+A:link IMG, A:visited IMG, A:active IMG { border: none 0 }
+A IMG { border: none 0 }
+
+H1 { font-family: lucida, helvetica, sans-serif; font-size: 18pt;
+     text-align: center;
+     color: #C41230 }
+H2 { font-family: lucida, helvetica, sans-serif; font-size: 14pt;
+     font-weight: bold }
+P, UL, OL, DD, DT, TD, TH, TR, LI, BLOCKQUOTE
+   { font-family: lucida, helvetica, sans-serif; font-size: 12pt }
+EM
+   { font-family: lucida, helvetica, sans-serif; font-size: 12pt;  
+     font-style: italic; text-decoration: none }
+
+PRE, TT, CODE, KBD, SAMP {
+        font-family: Courier, monospace;
+}

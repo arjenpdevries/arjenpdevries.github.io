@@ -1,0 +1,37 @@
+p,i,em,dl,dt,dd,b,center,li
+          { color            : black; 
+            font-size        : 10pt; 
+            line-height      : 1.2em; 
+            text-indent      : 0em;  
+            font-family      : Arial, Helvetica, sans-serif;
+            font-weight      : normal; 
+          }
+td, th, ul, ol, li     
+           { font-family     : Arial, Helvetica, sans-serif;
+             line-height      : 1.2em; 
+             font-size       : 10pt;
+           }
+td         { font-weight     : normal; }
+th         { font-weight     : bold; }
+
+
+h1        { color            : #DD0000; 
+            font-size        : 14pt; 
+            font-family      : Arial, Helvetica, sans-serif;
+            letter-spacing   : 0px; 
+            line-height      : 1.3em;
+          }
+h2        { color            : #DD0000; 
+            font-size        : 12pt; 
+            font-family      : Arial, Helvetica, sans-serif;
+            letter-spacing   : 0px; 
+            line-height      : 1.1em;
+          }
+
+body	{
+		background-color: #FFFFFF;
+		left-margin	: 0px;
+		right-margin	: 0px;
+		top-margin	: 0px;
+		margin-width	: 0px;
+	}
