@@ -1,7 +1,7 @@
 # arjenpdevries.github.io
 My github page
 
-Configured www.apeebevee.com according to 
+Configured arjenp.dev according to 
 https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/
 
-Test: dig www.apeebevee.com +nostats +nocomments +nocmd
+Test: dig arjenp.dev +nostats +nocomments +nocmd
