@@ -8,12 +8,13 @@ title: Brightspace Virtual Classroom (BVC)
 And then, Friday 13th, 2020, we suddenly found ourselves having to invent an approach to distant learning,
 without any chance to prepare ourselves!
 
-Like probably 100% of my colleagues, we moved to Brightspace last year and were happy to operate a table of contents,
-maybe a survey. I for example had never used Brightspace Virtual Classroom before, and I cannot say that the UI/UX 
-is optimal for stepping in without much time for preparation.
+We moved to Brightspace last year, and like most teachers in the institute, I have not used much more than
+announcements, table of contents, and maybe a survey or assignment. I had never used 
+Brightspace Virtual Classroom before, and I cannot say that the UI/UX is optimal for stepping in without 
+much time for preparation. But, it is conventient once you get the hang of it.
 
-But, we held two group meetings, two trial sessions, and now a first MSc defense.
-Congratulations with your well deserved MSc degree, Roel Bouman!
+Two weeks into the Corona Quarantaine, we have held two group meetings, two trial sessions, and today a 
+first MSc defense: _Congratulations with your MSc degree, Roel Bouman!_
 
 ## MSc defense in BVC
 
