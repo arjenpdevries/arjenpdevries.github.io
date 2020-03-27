@@ -17,14 +17,17 @@ Congratulations with your well deserved MSc degree, Roel Bouman!
 
 ## MSc defense in BVC
 
-Let me walk you through the peculiarities and general setup for hosting the MSc defense.
+Let me walk you through the peculiarities and general setup for hosting the MSc defense from an organiser's perspective.
 
-### Scheduling
+### Scheduling the defence
 
-Scheduling the meeting is straightforward. The documentation still mentions that you have to invite everyone, but that
-is not true any more since the recent [Brightspace update][update]. You find the link to distribute to external participants
-(and, honestly, this is handy for internal participants too) and launch the meeting from the item-menu in the schedule:
+Scheduling the meeting is straightforward, once you find the `+` button at the bottom right of the screen. 
+The documentation still mentions that you have to invite everyone, but that is no more the case (since this 
+[Brightspace update][update]). You find the link to distribute to external participants (very handy for 
+internal participants too) from the item-menu in the schedule:
 ![][item-menu-schedule]
+
+### Opening the room
 
 The organiser (and "super-moderator") can enter the room 10 minutes before any others can; the room is unavailable
 before the organiser has entered. Everyone sees a count-down to the moment that the event has been scheduled 
@@ -36,25 +39,44 @@ To ensure people do not miss the start due to mingling with audio settings, I re
 I uploaded as soon as I entered myself, that detailed the defence procedure:
 ![Welcome slide][welcome]
 
-### Moderation
+Right after entering the room, the organiser should modify the session's settings in the menu on the top right 
+of the screen; e.g. turning off cameras to reduce network traffic: ![][no-cam] and turning off private chats 
+to help people keep their attention to the presentation instead of each other:
+![][no-priv-chat]
 
-Right after entering the room, the organiser should modify the session's settings; e.g. turning off cameras 
-to reduce network traffic ![][no-cam] and turning off private chats to keep people's attention to the presentation 
-![][no-priv-chat].
+### Starting student presentation
 
 The organiser should then hand over the presenter token to the candidate: open the people tab by clicking on the 
 top left of the screen, and look for the student who will present; you see the following menu upon click:
 ![][moderator-presenter]
-![][presenter]
+
+The student then needs to upload their presentation, while you welcome everyone, explain the procedure and 
+hand-over the virtual microphone to the student. The student cannot just upload the presentation, but also
+initiate a poll or mute everyone at once; open the menu by clicking on the `+` sign at the bottom left 
+of the screen:
+![][upload-etc]
+
+If you did not select auto-recording of the presentation (recommended by the Brightspace folks on campus), 
+the organiser should **not forget to press record** when the student starts to talk; you can view Roel's defense, 
+but only from minute two or so, by what time Djoerd Hiemstra had been so kind to ring me on my cell-phone and 
+remind me to press that button at the top of the screen.
 
 ### Discussion
 
+Now, finally, a stress-free time has started for the organiser, having completed most of their task.
+When the presenter has concluded their presentation however, you should take back active control of the room.
+I gave the microphone to the second reader for the first few questions, and asked the others to raise their
+hand if they wanted to ask something later (they can change their status by clicking on their own icon in the
+people tab). At the end, all can select another status to indicate applause.
+
+_I probably should have pressed the button to stop recording now..._
 
 ## Conclusion
 
-Since the [March 27th Brightspace update][update] we have access to breakout rooms. We thought about using that for 
-the grading discussion while leaving the attendees to chat in the main room, but it was not immediately clear that
-no-one could listen in so we opted to simply have a telephone call and then re-enter the room.
+Since the [March 27th Brightspace update][update], we have access to breakout rooms. We thought about using that 
+functionality for the grading discussion, leaving the other attendees to chat in the main room. Because it was not 
+100% clear whether students would never end up in the same breakout room and overhear our discussion, we opted to 
+simply have a telephone call on the side, and then re-enter the room where we asked the student to wait for us.
 
 Overall, the experience has been a success, especially given the circumstances. The technology held up remarkably well, 
 fortunately. Of course, a live MSc defense with audience would be highly preferable, but I asked the participants to 
@@ -67,7 +89,6 @@ use the chat to describe their experience, look for yourselves!
 [item-menu-schedule]:    BVC-item-menu-schedule.png                  "Schedule item menu."
 [enter-meeting-room]:    BVC-lobby-enter-meeting-room-in-9-min.png   "Waiting in lobby."
 [moderator-presenter]:   BVC-make-moderator-or-presenter.png         "Presenter indicated on icons in people tab."
-[presenter]:             BVC-presenter.png                           "Make another person presenter."
 [no-cam]:                BVC-settings-no-camera.png                  "Do not allow camera from attendees."
 [no-priv-chat]:          BVC-settings-no-priv-chat.png               "No private chats."
 [upload-etc]:            BVC-upload-poll-muteAll.png                 "Upload PDF etc."
