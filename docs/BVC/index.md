@@ -19,7 +19,7 @@ Congratulations with your well deserved MSc degree, Roel Bouman!
 
 Let me walk you through the peculiarities and general setup for hosting the MSc defense from an organiser's perspective.
 
-### Scheduling the defence
+### Scheduling the defense
 
 Scheduling the meeting is straightforward, once you find the `+` button at the bottom right of the screen. 
 The documentation still mentions that you have to invite everyone, but that is no more the case (since this 
@@ -36,7 +36,7 @@ before the organiser has entered. Everyone sees a count-down to the moment that 
 
 To ensure people do not miss the start due to mingling with audio settings, I recommend to let people enter the room 
 5 minutes before the intended start of the presentation. Early participants saw this [PDF](roel-msc-welcome.pdf) that
-I uploaded as soon as I entered myself, that detailed the defence procedure:
+I uploaded as soon as I entered myself, that detailed the defense procedure:
 ![Welcome slide][welcome]
 
 Right after entering the room, the organiser should modify the session's settings in the menu on the top right 
