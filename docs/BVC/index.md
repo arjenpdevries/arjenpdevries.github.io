@@ -48,7 +48,7 @@ to help people keep their attention to the presentation instead of each other:
 ### Starting student presentation
 
 The organiser should then hand over the presenter token to the candidate: open the people tab by clicking on the 
-top left of the screen, and click on the student who will present:
+top left of the screen, click on the student who will present and select "Make presenter":
 ![][moderator-presenter]
 
 The student then needs to upload their presentation, while you welcome everyone, explain the procedure and 
@@ -57,7 +57,8 @@ initiate a poll or mute everyone at once; open the menu by clicking on the `+` s
 of the screen:
 ![][upload-etc]
 
-Brightspace support recommends not to select auto-recording of the room, but in that case the organiser should **not forget to press record** when the student starts to talk; you can view Roel's defense, 
+Brightspace support recommends not to select auto-recording of the room, but in that case the organiser should 
+**not forget to press record** when the student starts to talk; you can view Roel's defense, 
 but only from minute two or so, by what time Djoerd Hiemstra had been so kind to ring me on my cell-phone and 
 remind me to press that button at the top of the screen.
 
