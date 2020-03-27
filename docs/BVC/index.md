@@ -47,7 +47,7 @@ to help people keep their attention to the presentation instead of each other:
 ### Starting student presentation
 
 The organiser should then hand over the presenter token to the candidate: open the people tab by clicking on the 
-top left of the screen, and look for the student who will present; you see the following menu upon click:
+top left of the screen, and click on the student who will present:
 ![][moderator-presenter]
 
 The student then needs to upload their presentation, while you welcome everyone, explain the procedure and 
