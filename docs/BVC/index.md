@@ -22,8 +22,8 @@ Let me walk you through the peculiarities and general setup for hosting the MSc 
 ### Scheduling the defense
 
 Scheduling the meeting is straightforward, once you find the `+` button at the bottom right of the screen. 
-The documentation still mentions that you have to invite everyone, but that is no more the case (since this 
-[Brightspace update][update]). You find the link to distribute to external participants (very handy for 
+The online docs mention that you have to "invite all", but that is no more the case (since this 
+[Brightspace update][update]). You find the link to distribute to external participants (handy for 
 internal participants too) from the item-menu in the schedule:
 ![][item-menu-schedule]
 
