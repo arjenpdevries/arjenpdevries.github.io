@@ -56,8 +56,7 @@ initiate a poll or mute everyone at once; open the menu by clicking on the `+` s
 of the screen:
 ![][upload-etc]
 
-If you did not select auto-recording of the presentation (recommended by the Brightspace folks on campus), 
-the organiser should **not forget to press record** when the student starts to talk; you can view Roel's defense, 
+Brightspace support recommends not to select auto-recording of the room, but in that case the organiser should **not forget to press record** when the student starts to talk; you can view Roel's defense, 
 but only from minute two or so, by what time Djoerd Hiemstra had been so kind to ring me on my cell-phone and 
 remind me to press that button at the top of the screen.
 
