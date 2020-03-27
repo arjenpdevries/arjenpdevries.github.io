@@ -21,10 +21,17 @@ Let me walk you through the peculiarities and general setup for hosting the MSc 
 
 ### Scheduling
 
+Scheduling the meeting is easy. You can distribute the link and launch the meeting from the item-menu in the schedule:
+![][item-menu-schedule]
+
+The organiser (and kind of a super-moderator) has to enter the room before others can. Everyone sees the count-down:
+![][enter-meeting-room]
+
+Eventually, I settled on entering the room and uploading a PDF with information about how the session would be run.
+
 
 
 ### Moderating
-
 
 
 ### Discussion
@@ -39,5 +46,13 @@ Look for yourselves!
 
 ![BVC screenshot][overview]
 
-[overview]:	BVC-overview.png	"Brightspace Virtual Classroom during defense."
+[welcome]:               roel-msc-welcome.png                        "Welcome to the session."
+[overview]:              BVC-overview.png                            "Brightspace Virtual Classroom during defense."
+[item-menu-schedule]:    BVC-item-menu-schedule.png                  "Schedule item menu."
+[enter-meeting-room]:    BVC-lobby-enter-meeting-room-in-9-min.png   "Waiting in lobby."
+[moderator-presenter]:   BVC-make-moderator-or-presenter.png         "Presenter indicated on icons in people tab."
+[presenter]:             BVC-presenter.png                           "Make another person presenter."
+[no-cam]:                BVC-settings-no-camera.png                  "Do not allow camera from attendees."
+[no-priv-chat]:          BVC-settings-no-priv-chat.png               "No private chats."
+[upload-etc]:            BVC-upload-poll-muteAll.png                 "Upload PDF etc."
 
