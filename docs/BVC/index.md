@@ -27,9 +27,9 @@ Scheduling the meeting is easy. You can distribute the link and launch the meeti
 The organiser (and kind of a super-moderator) has to enter the room before others can. Everyone sees the count-down:
 ![][enter-meeting-room]
 
-Eventually, I settled on entering the room and uploading a PDF with information about how the session would be run.
-
-
+Eventually, I settled on letting people enter the room 5 minutes before the start, when they would see a 
+[PDF](roel-msc-welcome.pdf) showing the session logistics:
+![Welcome slide][welcome]
 
 ### Moderating
 
