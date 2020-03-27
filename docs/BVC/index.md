@@ -26,23 +26,23 @@ is not true any more since the recent [Brightspace update][update]. You find the
 (and, honestly, this is handy for internal participants too) and launch the meeting from the item-menu in the schedule:
 ![][item-menu-schedule]
 
-The organiser (and kind of a super-moderator) has to enter the room before any others can. 
-Everyone sees a count-down to the moment that the event has been scheduled (which could have been "now", suitable for 
-other meetings than a scheduled lecture or defence):
+The organiser (and "super-moderator") can enter the room 10 minutes before any others can; the room is unavailable
+before the organiser has entered. Everyone sees a count-down to the moment that the event has been scheduled 
+(which, btw, can be "now" too, suitable for other online meetings that are not pre-scheduled):
 ![][enter-meeting-room]
 
-Eventually, we settled on letting people enter the room 5 minutes before the real start of the event, to ensure limited
-loss of time at the start on mingling with audio settings. The early participants saw this [PDF](roel-msc-welcome.pdf)
-I uploaded, detailing the session rules:
+To ensure people do not miss the start due to mingling with audio settings, I recommend to let people enter the room 
+5 minutes before the intended start of the presentation. Early participants saw this [PDF](roel-msc-welcome.pdf) that
+I uploaded as soon as I entered myself, that detailed the defence procedure:
 ![Welcome slide][welcome]
 
-### Moderating
+### Moderation
 
-After entering the room as the first person, the organiser can modify the session's settings; e.g. turning off cameras 
+Right after entering the room, the organiser should modify the session's settings; e.g. turning off cameras 
 to reduce network traffic ![][no-cam] and turning off private chats to keep people's attention to the presentation 
 ![][no-priv-chat].
 
-The organiser can then hand over the presenter token to the candidate. Hereto, open the people tab by clicking on the 
+The organiser should then hand over the presenter token to the candidate: open the people tab by clicking on the 
 top left of the screen, and look for the student who will present; you see the following menu upon click:
 ![][moderator-presenter]
 ![][presenter]
