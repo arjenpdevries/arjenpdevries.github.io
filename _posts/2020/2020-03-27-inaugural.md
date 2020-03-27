@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Inaugural"
+title: "Inaugural blog post"
 author: "Arjen P. de Vries"
 date: "2020-03-27 12:00"
 excerpt: "Welcome to the blog series."
