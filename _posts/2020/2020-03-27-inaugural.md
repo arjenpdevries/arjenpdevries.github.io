@@ -19,7 +19,7 @@ Computer Science in general and its impact on science (e.g., digital humanities)
 Apart from pure scientific research, I plan to write about the joys of programming and running systems yourself,
 usually drawn from my own experience at home and work, using Linux and learning Rust.
 
-Posts can be written in Dutch or English.
+Posts are in English, or, occasionally, in Dutch.
 
 [informagus]:  https://informagus.nl/             "Informagus: IR @ Radboud University"
 [spinque]:     https://www.spinque.com/           "Spinque: search design"
