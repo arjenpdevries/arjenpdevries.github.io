@@ -47,15 +47,16 @@ to help people keep their attention to the presentation instead of each other:
 
 ### Starting student presentation
 
-The organiser should then hand over the presenter token to the candidate: open the people tab by clicking on the 
+Only the presenter can upload presentations, opening the presenter menu by clicking on the `+` sign at the bottom 
+left of the screen. The presenter can also initiate a poll or mute everyone at once; 
+![][upload-etc]
+
+The organiser should therefore hand over the presenter token to the candidate: open the people tab by clicking on the 
 top left of the screen, click on the student who will present and select "Make presenter":
 ![][moderator-presenter]
 
-The student then needs to upload their presentation, while you welcome everyone, explain the procedure and 
-hand-over the virtual microphone to the student. The student cannot just upload the presentation, but also
-initiate a poll or mute everyone at once; open the menu by clicking on the `+` sign at the bottom left 
-of the screen:
-![][upload-etc]
+The student then uploads the presentation for the defense, while you welcome everyone, explain the procedure and 
+hand-over the virtual microphone to the student.
 
 Brightspace support recommends not to select auto-recording of the room, but in that case the organiser should 
 **not forget to press record** when the student starts to talk; you can view Roel's defense, 
