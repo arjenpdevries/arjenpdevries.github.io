@@ -92,6 +92,8 @@ use the chat to describe their experience, look for yourselves!
 
 + Peter Achten created a much nicer version of the [waiting-room-instructions](guidelines-bvc.pdf) for the BSc defense session he hosted that week.
 
+![waiting-room][waitroom-new]
+
 [welcome]:               roel-msc-welcome.png                        "Welcome to the session."
 [overview]:              BVC-overview.png                            "Brightspace Virtual Classroom during defense."
 [item-menu-schedule]:    BVC-item-menu-schedule.png                  "Schedule item menu."
@@ -100,5 +102,7 @@ use the chat to describe their experience, look for yourselves!
 [no-cam]:                BVC-settings-no-camera.png                  "Do not allow camera from attendees."
 [no-priv-chat]:          BVC-settings-no-priv-chat.png               "No private chats."
 [upload-etc]:            BVC-upload-poll-muteAll.png                 "Upload PDF etc."
+
+[waitroom-new]:		guidelines-bvc.png                           "New slide for waiting room."
 
 [update]: https://ru-werkinstructies.screenstepslive.com/s/Teacher/m/84405/l/1223105-what-s-new-march-2020 "Update 27/3/2020"
