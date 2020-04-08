@@ -86,6 +86,12 @@ use the chat to describe their experience, look for yourselves!
 
 ![BVC screenshot][overview]
 
+## Updates
+
++ Faegheh Hasibi and myself used Brightspace successfully for a series of resits on April 6th & 7th.
+
++ Peter Achten created a much nicer version of the [waiting-room-instructions](guidelines-bvc.pdf) for the BSc defense session he hosted that week.
+
 [welcome]:               roel-msc-welcome.png                        "Welcome to the session."
 [overview]:              BVC-overview.png                            "Brightspace Virtual Classroom during defense."
 [item-menu-schedule]:    BVC-item-menu-schedule.png                  "Schedule item menu."
