@@ -10,7 +10,7 @@ tags: hello-world
 Welcome, this is the inaugural blog post for the [ArjenP dot DeV](https://arjenp.dev) blog series.
 
 The main topic of discussion in this online space is Information Retrieval research, highlighting progress 
-at the [Radboud University IR group][informagi], at [Spinque][spinque] and at [SPARQUE][sparque].
+at the [Radboud University IR group][informagus], at [Spinque][spinque] and at [SPARQUE][sparque].
 
 Other topics you can expect me to write about relate to the broader domain of Data Science, 
 Data Engineering including Data(-base) Management, Reproducible Science and Research Data Management, 
