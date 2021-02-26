@@ -33,17 +33,20 @@ that well documented (although there is [some info on the
 wiki][fedkerneldoc]).
 
 Depending on the size of the partition that contains your home
-directory, it may be wise to first move the file location for RPMs to
-a large disk:
+directory, it may be wise to select a location on a different disk for
+the intermediate files that are created during the building process:
 
 	MYRPMROOT=/export/data1/arjen/rpmbuild
+	
+Move the package repository to this new location:
+
 	mkdir -p ${MYRPMROOT}
 	cd ${MYRPMROOT}
 	mkdir -p BUILD RPMS RPMS/i386 SOURCES SPECS SRPMS
 
     echo %_topdir ${MYRPMROOT} >> ${HOME}/.rpmmacros
 
-Clone the kernel tree and switch to the right release branch:
+Clone the kernel tree and switch to the FC33 release branch:
 
     fedpkg clone -a kernel
     cd kernel
