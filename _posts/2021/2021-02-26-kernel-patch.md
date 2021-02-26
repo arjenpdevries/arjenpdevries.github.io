@@ -1,9 +1,9 @@
 ---
 layout: "post"
-title: "Patching a kernel"
+title: "Patching the kernel on Fedora"
 author: "Arjen P. de Vries"
 date: "2021-02-26 12:00"
-excerpt: "Patching the Fedora kernel."
+excerpt: "Fedora Core has a handy kernel build system that is not that well documented..."
 tags: linux
 ---
 
@@ -12,27 +12,25 @@ My desktop has run Fedora Core ever since I joined
 a _real_ institute ran all its desktops on Linux!).
 
 Things usually run perfectly fine, aside the occasional struggle with
-SELinux and Wayland to make those do what I want. Until, after a
-fairly recent update to Fedora Core 33 (FC33) however, at some point
-(but not right away), the graphical drivers started to
-misbehave. Luckily, I was not the first to encounter this problem, and
-after a few searches I discovered that the Red Hat team had
-already been working toward a solution for [`[Bug 1925346]`][bugzilla]
-(Screen glitches after updating to Kernel 5.10.10).
+SELinux, GNOME and Wayland to make those do what I want. Not that long
+after my update to Fedora Core 33 (FC33), but not right away, the
+graphical drivers started to misbehave. Luckily, I was not the first
+to encounter this problem, and after a few searches I discovered that
+the Red Hat team had already been working toward a solution for [`[Bug
+1925346]`][bugzilla] _(Screen glitches after updating to Kernel 5.10.10)_.
 
-Red Hat's Hans de Goede has created so-called `koji` kernels that seem
-to resolve the problem, but these do not work with UEFI BIOSes,
-because they are unsigned. A good reason to travel back to the times
-when we build our own kernels... Hans de Goede has been so kind to has
-been kind to [share a
-patch](https://bugzilla.redhat.com/show_bug.cgi?id=1925346#c33), so on
-we go!
-
-Fedora Core has a peculiar kernel build system that is however not
-that well documented (although there is [some info on the
-wiki][fedkerneldoc]), so let me summarize the process here.
+Red Hat's Hans de Goede has created `koji` kernels as a workaround,
+that seem to resolve the problem, but these do not go well together
+with UEFI BIOSes (those are unsigned). Kindly, Hans has
+[shared a patch](https://bugzilla.redhat.com/show_bug.cgi?id=1925346#c33), 
+so off we go! Back to the times predating Red Hat and Ubuntu, when we
+had to build our own kernels on a regular basis...
 
 ## Preparations
+
+Fedora Core has a handy kernel build system that is however not
+that well documented (although there is [some info on the
+wiki][fedkerneldoc]).
 
 Depending on the size of the partition that contains your home
 directory, it may be wise to first move the file location for RPMs to
