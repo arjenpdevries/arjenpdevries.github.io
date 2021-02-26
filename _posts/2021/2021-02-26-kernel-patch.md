@@ -136,6 +136,10 @@ using `dnf`:
 
     sudo dnf install $MYRPMROOT/RPMS/x86_64/*${MYKERNELVERSION}*
 
+After rebooting, `uname -sr` shows the (expected) `Linux
+5.10.17-206.i915p.fc33.x86_64`, and, _no more problems with the Intel
+video card_.
+
 ## Acknowledgement
 
 Hans de Goede has been so kind to share the composite patch that
