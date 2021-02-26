@@ -54,7 +54,7 @@ Clone the kernel tree and switch to the FC33 release branch:
 
 ## Configuration
 
-In `kernel.spec` set `build id` to `.i915p` (or whatever you like);
+In `kernel.spec` set `buildid` to `.i915p` (or whatever you like);
 and set the signing certificate (creating your own kernel siging
 certificates is a nice topic for a companion post...).
 
