@@ -26,6 +26,11 @@ with UEFI BIOSes (those are unsigned). Kindly, Hans has
 so off we go! Back to the times predating Red Hat and Ubuntu, when we
 had to build our own kernels on a regular basis...
 
+_Note: You do not have to compile a kernel any longer, since the proposed 
+update is already available in the
+[Red Hat testing](https://bugzilla.redhat.com/show_bug.cgi?id=1925346#c41)
+repo._
+
 ## Preparations
 
 Fedora Core has a handy kernel build system that is however not
