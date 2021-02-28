@@ -28,7 +28,7 @@ had to build our own kernels on a regular basis...
 
 _Note: You do not have to compile a kernel any longer, since the proposed 
 update is already available in the
-[Red Hat testing](https://bugzilla.redhat.com/show_bug.cgi?id=1925346#c41)
+[Red Hat testing](https://bodhi.fedoraproject.org/updates/FEDORA-2021-79396b21b2)
 repo._
 
 ## Preparations
