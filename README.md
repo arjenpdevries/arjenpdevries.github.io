@@ -5,7 +5,7 @@ My github page
 ## Setup
 
 Configured `arjenp.dev` according to:
-https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain
 
 ## Test
  
